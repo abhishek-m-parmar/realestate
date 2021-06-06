@@ -1,0 +1,122 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Merriweather', serif;
+}
+.nav-link{
+	text-transform: uppercase;
+	color: black;
+	font-weight: 600;
+}
+.navbar-brand{
+	text-transform: uppercase;
+	color: black;
+	font-weight: 700;
+}
+.main{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("four.jpg")no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+}
+.main h1{
+	font-size: 3rem;
+	font-weight: 700;
+}
+.card{
+	border: none;
+}
+.main select{
+	height: 40px;
+	width: 90%;
+	outline: none;
+	padding: 0 20px;
+}
+.main span{
+	color: rgb(104, 89, 89);
+	font-weight: 600;
+}
+.main .btn1{
+	background-color: gray;
+	color: white;
+	outline: none;
+	border: none;
+	width: 90%;
+	height: 40px;
+	margin-top: 32px;
+}
+.btn:hover{
+	background-color: tomato;
+	transition: 0.5s;
+}
+.land{
+	background: white;
+}
+.btn2{
+	background: black;
+	color: white;
+	height: 45px;
+	width: 200px;
+	outline: none;
+	border: none;
+}
+.py-5 .col-lg-6{
+	float: right;
+}
+.about us h1{
+	font-size: 3rem;
+	font-weight: 700;
+}
+.about us h4{
+	font-weight: 600;
+	text-align: center; 
+}
+.rent{
+	background: rgb(238, 235, 235);
+}
+.btnc{
+	height: 45px;
+	width: 150px;
+	background-color: white;
+	color: black;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	position: absolute;
+	left: 30%;
+	top: 20%;
+	padding: 10px;
+	font-weight: 500;
+}
+.rent h1{
+	font-weight: 700;
+}
+.Home{
+	background: rgb(238, 235, 235);
+}
+.Home h1{
+	font-weight: 700;
+}
+.btnf{
+	background-color: black;
+	color: white;
+	height: 45px;
+	width: 200px;
+	outline: none;
+	border: none;
+	display: inline-block;
+}
+footer{
+	background-color: black;
+	color: white;
+}
+.fab{
+	font-size: 25px;
+	color: gray;
+}
+.fab:hover{
+	color: white;
+	transition: 0.5s;
+}
